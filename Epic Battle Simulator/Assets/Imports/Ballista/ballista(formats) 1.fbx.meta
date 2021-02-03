@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 2a477532cbf59b946bdc0fc0d12d649b
+timeCreated: 1521049945
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: baglanti
+    100002: baglantilar
+    100004: //RootNode
+    100006: ballista_1
+    100008: carklar
+    100010: Cinema4D_Editor
+    100012: govde
+    100014: halka
+    100016: ip
+    100018: ip_2
+    100020: itici
+    100022: kasa
+    100024: kasnak
+    100026: kumas
+    100028: kurma_kolu
+    100030: mekanizma
+    100032: mil
+    100034: ok
+    100036: pim
+    100038: tekerlek
+    100040: tekerlekler
+    100042: tetik_grubu
+    100044: yay
+    100046: yay_grubu
+    400000: baglanti
+    400002: baglantilar
+    400004: //RootNode
+    400006: ballista_1
+    400008: carklar
+    400010: Cinema4D_Editor
+    400012: govde
+    400014: halka
+    400016: ip
+    400018: ip_2
+    400020: itici
+    400022: kasa
+    400024: kasnak
+    400026: kumas
+    400028: kurma_kolu
+    400030: mekanizma
+    400032: mil
+    400034: ok
+    400036: pim
+    400038: tekerlek
+    400040: tekerlekler
+    400042: tetik_grubu
+    400044: yay
+    400046: yay_grubu
+    2100000: kumas
+    2100002: ok
+    2100004: mil
+    2100006: kasnak
+    2100008: tekerlek
+    2100010: pim
+    2100012: ip.1
+    2100014: carklar
+    2100016: ip
+    2100018: yay
+    2100020: baglantilar
+    2100022: itici
+    2100024: mekanizma
+    2100026: kasa
+    2100028: baglanti
+    2100030: halka
+    2300000: baglanti
+    2300002: baglantilar
+    2300004: carklar
+    2300006: halka
+    2300008: ip
+    2300010: ip_2
+    2300012: itici
+    2300014: kasa
+    2300016: kasnak
+    2300018: kumas
+    2300020: mekanizma
+    2300022: mil
+    2300024: ok
+    2300026: pim
+    2300028: tekerlek
+    2300030: yay
+    3300000: baglanti
+    3300002: baglantilar
+    3300004: carklar
+    3300006: halka
+    3300008: ip
+    3300010: ip_2
+    3300012: itici
+    3300014: kasa
+    3300016: kasnak
+    3300018: kumas
+    3300020: mekanizma
+    3300022: mil
+    3300024: ok
+    3300026: pim
+    3300028: tekerlek
+    3300030: yay
+    4300000: kumas
+    4300002: ok
+    4300004: mil
+    4300006: kasnak
+    4300008: tekerlek
+    4300010: pim
+    4300012: ip
+    4300014: carklar
+    4300016: ip_2
+    4300018: yay
+    4300020: baglantilar
+    4300022: itici
+    4300024: mekanizma
+    4300026: kasa
+    4300028: baglanti
+    4300030: halka
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

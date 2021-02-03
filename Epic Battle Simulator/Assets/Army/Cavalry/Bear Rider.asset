@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: Bear Rider
+  m_EditorClassIdentifier: 
+  name: Bear Rider
+  cost: 200
+  range: 3
+  canHit: 1
+  type: 2
+  troopBlueprint:
+    prefab: {fileID: 1104474526922480, guid: 64e4aec6e6691e34096fdcff23cd3b11, type: 2}
+    health: 600
+    damage: 75
+    hitSpeed: 0.6
+    moveSpeed: 6
+    cost: 0
+    icon: {fileID: 21300000, guid: 91c297b964a983d499880915440c8770, type: 3}
+  upgrades:
+  - prefab: {fileID: 1313958700014054, guid: 9192936e70c18dc4aab97c48579704d7, type: 2}
+    health: 700
+    damage: 90
+    hitSpeed: 0.7
+    moveSpeed: 6.5
+    cost: 3000
+    icon: {fileID: 21300000, guid: 419f0a6796c7ee948886fc84ba10ed08, type: 3}
+  - prefab: {fileID: 1541489579425618, guid: e26d645108a3752439dbbd582d9d03e9, type: 2}
+    health: 800
+    damage: 110
+    hitSpeed: 0.8
+    moveSpeed: 7
+    cost: 8000
+    icon: {fileID: 21300000, guid: 42c36c07e103ea5408a00d83725dbb79, type: 3}
+  unlocked: 0
+  unclockPrice: 0
+  currentLevel: 1
+  description: Bear and hammer, what a deadly combo!

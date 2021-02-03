@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: K98
+  m_EditorClassIdentifier: 
+  name: K98
+  cost: 100
+  range: 20
+  canHit: 1
+  type: 1
+  troopBlueprint:
+    prefab: {fileID: 1327867031785156, guid: 820ca2904a2054946b4a64eb75b99098, type: 2}
+    health: 50
+    damage: 17
+    hitSpeed: 0.85
+    moveSpeed: 3.45
+    cost: 0
+    icon: {fileID: 21300000, guid: 52313da972944ae4da3483545a3a7971, type: 3}
+  upgrades: []
+  currentLevel: 1
+  description: K98 is an automated gun, be careful with it!

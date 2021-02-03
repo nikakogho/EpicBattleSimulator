@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: Mage Tower
+  m_EditorClassIdentifier: 
+  name: Mage Tower
+  cost: 500
+  range: 40
+  canHit: 10
+  type: 4
+  troopBlueprint:
+    prefab: {fileID: 1988513733046134, guid: c657d074de82c7a44ab1e51ce22d007d, type: 2}
+    health: 400
+    damage: 80
+    hitSpeed: 0.4
+    moveSpeed: 0
+    cost: 0
+    icon: {fileID: 21300000, guid: 17dc984c8d073b4449a2888d9785cc92, type: 3}
+  upgrades:
+  - prefab: {fileID: 1776204620412082, guid: 0cf0b0b47ab4cdf44877ff2cf2eec09b, type: 2}
+    health: 440
+    damage: 90
+    hitSpeed: 0.44
+    moveSpeed: 0
+    cost: 4000
+    icon: {fileID: 21300000, guid: 08de1ac4d72528b4eaa9c4b14a19898b, type: 3}
+  - prefab: {fileID: 1616049414011002, guid: f38991b788bf4254b9de0a9a2a63e8db, type: 2}
+    health: 500
+    damage: 100
+    hitSpeed: 0.5
+    moveSpeed: 0
+    cost: 9000
+    icon: {fileID: 21300000, guid: 47506b00a30d9b046b3b000ceca4f1b6, type: 3}
+  currentLevel: 1
+  description: Basically, Mage stands on tower to protect himself

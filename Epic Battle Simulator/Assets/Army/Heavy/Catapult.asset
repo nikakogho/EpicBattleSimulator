@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: Catapult
+  m_EditorClassIdentifier: 
+  name: Catapult
+  cost: 400
+  range: 50
+  canHit: 50
+  type: 3
+  troopBlueprint:
+    prefab: {fileID: 1628716765614148, guid: a782eff0663195d47aa78dfbf7a5c1e7, type: 2}
+    health: 300
+    damage: 300
+    hitSpeed: 0.12
+    moveSpeed: 1
+    cost: 0
+    icon: {fileID: 21300000, guid: a4a7416865ba26042b31ea794b3e55fa, type: 3}
+  upgrades: []
+  currentLevel: 1
+  description: Catapult shoots some nice rocks!

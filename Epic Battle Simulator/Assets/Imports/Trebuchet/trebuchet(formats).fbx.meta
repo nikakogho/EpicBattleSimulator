@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: b98f548eab2247b4cb9672c84dd810a0
+timeCreated: 1521465343
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: agirlik
+    100002: ayak1
+    100004: ayak2
+    100006: Cinema4D_Editor
+    100008: direkler1
+    100010: dirsek
+    100012: gulle
+    100014: ipler
+    100016: kizak
+    100018: kol
+    100020: kumaslar
+    100022: mekanizma
+    100024: torba
+    100026: //RootNode
+    100028: TREBUCHET_1
+    400000: agirlik
+    400002: ayak1
+    400004: ayak2
+    400006: Cinema4D_Editor
+    400008: direkler1
+    400010: dirsek
+    400012: gulle
+    400014: ipler
+    400016: kizak
+    400018: kol
+    400020: kumaslar
+    400022: mekanizma
+    400024: torba
+    400026: //RootNode
+    400028: TREBUCHET_1
+    2100000: kumaslar
+    2100002: ipler
+    2100004: torba
+    2100006: gulle
+    2100008: agirlik
+    2100010: kol
+    2100012: ayak1
+    2100014: mekanizma
+    2100016: ayak2
+    2100018: kizak
+    2100020: dirsek
+    2100022: direkler1
+    2300000: agirlik
+    2300002: ayak1
+    2300004: ayak2
+    2300006: direkler1
+    2300008: dirsek
+    2300010: gulle
+    2300012: ipler
+    2300014: kizak
+    2300016: kol
+    2300018: kumaslar
+    2300020: mekanizma
+    2300022: torba
+    3300000: agirlik
+    3300002: ayak1
+    3300004: ayak2
+    3300006: direkler1
+    3300008: dirsek
+    3300010: gulle
+    3300012: ipler
+    3300014: kizak
+    3300016: kol
+    3300018: kumaslar
+    3300020: mekanizma
+    3300022: torba
+    4300000: kumaslar
+    4300002: ipler
+    4300004: torba
+    4300006: gulle
+    4300008: agirlik
+    4300010: kol
+    4300012: ayak1
+    4300014: mekanizma
+    4300016: ayak2
+    4300018: kizak
+    4300020: dirsek
+    4300022: direkler1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

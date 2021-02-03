@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: 
+  name: Knight
+  cost: 120
+  range: 3
+  canHit: 1
+  type: 2
+  troopBlueprint:
+    prefab: {fileID: 1514628992148244, guid: 031dc397529dca447a955970c0bf61c0, type: 2}
+    health: 150
+    damage: 30
+    hitSpeed: 1.1
+    moveSpeed: 17.5
+    cost: 0
+    icon: {fileID: 21300000, guid: 7aeccce1e0810904aaad1d489d8858bb, type: 3}
+  upgrades:
+  - prefab: {fileID: 1480961255209336, guid: 32a2b2e22cd624d4b80329e5d2bf3751, type: 2}
+    health: 200
+    damage: 40
+    hitSpeed: 1.25
+    moveSpeed: 20
+    cost: 3000
+    icon: {fileID: 21300000, guid: 7b8861312ead0b6488fe155bec18ae4f, type: 3}
+  - prefab: {fileID: 1627363101598272, guid: eb0111b6cb56f974d986c47044b77a0a, type: 2}
+    health: 300
+    damage: 50
+    hitSpeed: 1.5
+    moveSpeed: 22.5
+    cost: 7500
+    icon: {fileID: 21300000, guid: 9e203a368d933c54d8ec98bfab68007e, type: 3}
+  currentLevel: 1
+  description: Knight with horse is unsoppable force!

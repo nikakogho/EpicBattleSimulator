@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: Crossbow
+  m_EditorClassIdentifier: 
+  name: Crossbow
+  cost: 50
+  range: 30
+  canHit: 1
+  type: 1
+  troopBlueprint:
+    prefab: {fileID: 1704604534915480, guid: 50b0e8b8d1d52a845a416eb3247abfdd, type: 2}
+    health: 65
+    damage: 50
+    hitSpeed: 0.675
+    moveSpeed: 4.5
+    cost: 0
+    icon: {fileID: 21300000, guid: 2bfd6d4e051a7f14fba13f2708018b5e, type: 3}
+  upgrades: []
+  currentLevel: 1
+  description: Crossbow's instant shots make Archer seem lame

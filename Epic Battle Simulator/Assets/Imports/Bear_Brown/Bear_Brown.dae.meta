@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: ccd63c638b9eb734c99a896faa9e8ec5
+timeCreated: 1521541172
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: arm_elbow_left
+    100002: arm_elbow_right
+    100004: arm_paw_claws_left
+    100006: arm_paw_claws_right
+    100008: arm_shoulder_1_left
+    100010: arm_shoulder_1_right
+    100012: arm_shoulder_2_left
+    100014: arm_shoulder_2_right
+    100016: arm_wrist_left
+    100018: arm_wrist_right
+    100020: Armature
+    100022: Bear
+    100024: //RootNode
+    100026: BearEye
+    100028: BearFur
+    100030: ear_left
+    100032: ear_right
+    100034: head
+    100036: head_eyeball_left
+    100038: head_eyeball_right
+    100040: head_eyelid_lower_left
+    100042: head_eyelid_lower_right
+    100044: head_eyelid_upper_left
+    100046: head_eyelid_upper_right
+    100048: head_lip_upper_left
+    100050: head_lip_upper_right
+    100052: head_nose
+    100054: jaw
+    100056: leg_ankle_left
+    100058: leg_ankle_right
+    100060: leg_foot_claws_left
+    100062: leg_foot_claws_right
+    100064: leg_knee_left
+    100066: leg_knee_right
+    100068: leg_thigh_left
+    100070: leg_thigh_right
+    100072: neck
+    100074: pelvis
+    100076: root_ground
+    100078: root_hips
+    100080: spine_lower
+    100082: spine_upper
+    100084: tail
+    100086: tongue_1
+    100088: tongue_2
+    400000: arm_elbow_left
+    400002: arm_elbow_right
+    400004: arm_paw_claws_left
+    400006: arm_paw_claws_right
+    400008: arm_shoulder_1_left
+    400010: arm_shoulder_1_right
+    400012: arm_shoulder_2_left
+    400014: arm_shoulder_2_right
+    400016: arm_wrist_left
+    400018: arm_wrist_right
+    400020: Armature
+    400022: Bear
+    400024: //RootNode
+    400026: BearEye
+    400028: BearFur
+    400030: ear_left
+    400032: ear_right
+    400034: head
+    400036: head_eyeball_left
+    400038: head_eyeball_right
+    400040: head_eyelid_lower_left
+    400042: head_eyelid_lower_right
+    400044: head_eyelid_upper_left
+    400046: head_eyelid_upper_right
+    400048: head_lip_upper_left
+    400050: head_lip_upper_right
+    400052: head_nose
+    400054: jaw
+    400056: leg_ankle_left
+    400058: leg_ankle_right
+    400060: leg_foot_claws_left
+    400062: leg_foot_claws_right
+    400064: leg_knee_left
+    400066: leg_knee_right
+    400068: leg_thigh_left
+    400070: leg_thigh_right
+    400072: neck
+    400074: pelvis
+    400076: root_ground
+    400078: root_hips
+    400080: spine_lower
+    400082: spine_upper
+    400084: tail
+    400086: tongue_1
+    400088: tongue_2
+    2100000: BearFur__Bear_Fur_D_tga
+    2100002: BearEye__Bear_Eye_D_tga
+    2100004: Bear__Bear_D_tga
+    4300000: BearFur
+    4300002: BearEye
+    4300004: Bear
+    9500000: //RootNode
+    13700000: Bear
+    13700002: BearEye
+    13700004: BearFur
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

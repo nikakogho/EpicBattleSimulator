@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: SpartanKing
+  m_EditorClassIdentifier: 
+  name: Spartan King
+  cost: 700
+  range: 4
+  canHit: 3
+  type: 5
+  troopBlueprint:
+    prefab: {fileID: 1481374600146518, guid: 0ff0780479451fd47aad54212b1d7850, type: 2}
+    health: 1600
+    damage: 220
+    hitSpeed: 1.25
+    moveSpeed: 5.65
+    cost: 0
+    icon: {fileID: 21300000, guid: d0f7d18332936dc46920ea9471fbfbe1, type: 3}
+  upgrades: []
+  currentLevel: 1
+  description: This, is, Spartaaaan!

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: Musketeer
+  m_EditorClassIdentifier: 
+  name: Musketeer
+  cost: 100
+  range: 50
+  canHit: 1
+  type: 1
+  troopBlueprint:
+    prefab: {fileID: 1361746962098968, guid: 0254f7cd7cfe5b3419b70ece08b16e5a, type: 2}
+    health: 20
+    damage: 100
+    hitSpeed: 0.2
+    moveSpeed: 4
+    cost: 0
+    icon: {fileID: 21300000, guid: 58fd2714145c7b4408ea1587afe7382c, type: 3}
+  upgrades:
+  - prefab: {fileID: 1899023203991450, guid: b2537421ae4d83c4697824e26ca88a68, type: 2}
+    health: 22
+    damage: 112.5
+    hitSpeed: 0.22
+    moveSpeed: 5
+    cost: 2000
+    icon: {fileID: 21300000, guid: 372c1e06bebbb2047848e44dc3a1686f, type: 3}
+  - prefab: {fileID: 1917269118475892, guid: 3fb2c1fb9a1bedc43a99d007998d544b, type: 2}
+    health: 25
+    damage: 135
+    hitSpeed: 0.25
+    moveSpeed: 6
+    cost: 7000
+    icon: {fileID: 21300000, guid: df7219ffcbba02446a88d3cf6519d97e, type: 3}
+  currentLevel: 1
+  description: Musketeer has nice range and damage, use wisely and you'll surely win!

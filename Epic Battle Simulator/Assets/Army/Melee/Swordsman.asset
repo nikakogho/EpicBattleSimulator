@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: Swordsman
+  m_EditorClassIdentifier: 
+  name: Swordsman
+  cost: 80
+  range: 2.5
+  canHit: 1
+  type: 0
+  troopBlueprint:
+    prefab: {fileID: 1106695485184168, guid: 431aed0c82adbf7428360de06855de05, type: 2}
+    health: 200
+    damage: 20
+    hitSpeed: 1.15
+    moveSpeed: 5
+    cost: 0
+    icon: {fileID: 21300000, guid: 5174eb83831ed314f9bbff925a70651e, type: 3}
+  upgrades: []
+  currentLevel: 1
+  description: Those two swords are cool!

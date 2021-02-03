@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f42825848ad24d9c99e2a232a5279, type: 3}
+  m_Name: Knight Warrior
+  m_EditorClassIdentifier: 
+  name: Knight Warrior
+  cost: 120
+  range: 4
+  canHit: 2
+  type: 0
+  troopBlueprint:
+    prefab: {fileID: 1637822116435536, guid: c59b1f52f6fa353419ff02e25a7560e4, type: 2}
+    health: 400
+    damage: 40
+    hitSpeed: 1.175
+    moveSpeed: 4
+    cost: 0
+    icon: {fileID: 21300000, guid: 5de9ade151670f946b4ab7ac56c25103, type: 3}
+  upgrades: []
+  currentLevel: 1
+  description: Some knights wander alone. They're the great ones
