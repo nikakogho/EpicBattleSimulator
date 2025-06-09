@@ -36,10 +36,16 @@ public class GameMaster : MonoBehaviour
     public Button nextLevelButton;
     public Button previousLevelButton;
 
+    [Header("Pause Game")]
+    public GameObject pauseUI;
+    public KeyCode pauseKey = KeyCode.Escape;
+    public bool IsPaused { get; private set; }
+
     void Awake()
     {
         instance = this;
-
+        IsPaused = false;
+        Time.timeScale = 1;
         money = PlayerPrefs.GetInt("money", 0);
         
         foreach(var troop in allTroops)
@@ -89,9 +95,28 @@ public class GameMaster : MonoBehaviour
         began = true;
     }
 
+    void TogglePause()
+    {
+        IsPaused = !IsPaused;
+        pauseUI.SetActive(IsPaused);
+        Time.timeScale = IsPaused ? 0 : 1;
+    }
+
+    public void Unpause()
+    {
+        if (IsPaused)
+            TogglePause();
+    }
+
     void Update()
     {
-        if (began) return;
+        if (began)
+        {
+            if (Input.GetKeyDown(pauseKey))
+                TogglePause();
+
+            return;
+        }
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -204,7 +229,7 @@ public class GameMaster : MonoBehaviour
     public void Menu()
     {
         Save();
-
+        Time.timeScale = 1;
         SceneManager.LoadScene(menuSceneName);
     }
 
@@ -225,6 +250,12 @@ public class GameMaster : MonoBehaviour
     {
         troopUI.SetActive(state);
         showUI.SetActive(!state);
+    }
+
+    public void Restart()
+    {
+        Unpause();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public static void Save()
